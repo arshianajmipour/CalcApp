@@ -29,6 +29,7 @@ body{
     flex-direction: column;
     align-items: center;
     font-size: -webkit-xxx-large;
+    padding:10px;
 }
 .keys span{
     display: flex;
