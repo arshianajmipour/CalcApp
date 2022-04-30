@@ -2,12 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet"/>
     <title>Calc App</title>
 </head>
 <body>
-<h1 onClick="HeaderClickedHandler()">Hi!</h1>
 
-    <script src="js/script.js" rel="text/javascript"></script>
+<div id="calculator">
+    <!-- Screen and clear key -->
+    <div class="top">
+        <span id="clear" onclick="">C</span>
+        <div id="screen"></div>
+    </div>
+
+    <div class="keys">
+        <!-- operators and other keys -->
+        <span onclick="">7</span>
+        <span onclick="">8</span>
+        <span onclick="">9</span>
+        <span id="plus" class="operator" onclick="">+</span>
+        <span onclick="">4</span>
+        <span onclick="">5</span>
+        <span onclick="">6</span>
+        <span id="minus" class="operator" onclick="">-</span>
+        <span onclick="">1</span>
+        <span onclick="">2</span>
+        <span onclick="">3</span>
+        <span id="divide" class="operator" onclick="">÷</span>
+        <span onclick="">0</span>
+        <span onclick="">.</span>
+        <span class="eval" onclick="">=</span>
+        <span id="multiple" class="operator" onclick="">x</span>
+    </div>
+</div>
+
+<script src="js/script.js" rel="text/javascript"></script>
 </body>
 </html>
