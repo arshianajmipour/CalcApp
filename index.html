@@ -12,35 +12,35 @@
     <!-- Screen and clear key -->
     <div class="top">
         
-        <span id="clear" onclick="">C</span>
-        <div id="screen">0</div>
+        <span id="clear" onclick="clearScreen()">C</span>
+        <div id="screen"></div>
     </div>
 
     <div class="keys">
         <!-- operators and other keys -->
         <div class="row1">
-            <span onclick="" class="number">7</span>
-            <span onclick="" class="number">8</span>
-            <span onclick="" class="number">9</span>
-            <span id="plus" class="operator" onclick="">+</span>
+            <span onclick="number(7)" class="number">7</span>
+            <span onclick="number(8)" class="number">8</span>
+            <span onclick="number(9)" class="number">9</span>
+            <span id="plus" class="operator" onclick="operation('+')">+</span>
         </div>
         <div class="row1">
-            <span onclick="" class="number">4</span>
-            <span onclick="" class="number">5</span>
-            <span onclick="" class="number">6</span>
-            <span id="minus" class="operator" onclick="">-</span>
+            <span onclick="number(4)" class="number">4</span>
+            <span onclick="number(5)" class="number">5</span>
+            <span onclick="number(6)" class="number">6</span>
+            <span id="minus" class="operator" onclick="operation('-')">-</span>
         </div>
         <div class="row1">
-            <span onclick="" class="number">1</span>
-            <span onclick="" class="number">2</span>
-            <span onclick="" class="number">3</span>
-            <span id="divide" class="operator" onclick="">÷</span>
+            <span onclick="number(1)" class="number">1</span>
+            <span onclick="number(2)" class="number">2</span>
+            <span onclick="number(3)" class="number">3</span>
+            <span id="divide" class="operator" onclick="operation('÷')">÷</span>
         </div>
             <div class="row1">
-            <span onclick="" class="number">0</span>
-            <span onclick="" class="number">.</span>
-            <span class="eval" onclick="">=</span>
-            <span id="multiple" class="operator" onclick="">x</span>
+            <span onclick="number(0)" class="number">0</span>
+            <span onclick="number(10)" class="number">.</span>
+            <span class="eval" onclick="equal()">=</span>
+            <span id="multiple" class="operator" onclick="operation('*')">x</span>
         </div>
     </div>
 </div>

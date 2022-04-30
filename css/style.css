@@ -67,6 +67,32 @@ span.number:hover{
 span#clear:hover{
     background-color: white;
 }
+span.operator:hover{
+    color: rgb(247, 141, 3) ;
+    background-color: rgb(255, 238, 215);
+}
+span.eval:hover{
+    color: rgb(247, 141, 3) ;
+    background-color: rgb(255, 238, 215);
+}
 #screen{
     margin:10px;
 }
+@media only screen and (max-width: 850px) {
+    /* For mobile phones: */
+    #calculator {
+      width: 60%;
+    }
+  }
+  @media only screen and (max-width: 720px) {
+    /* For mobile phones: */
+    #calculator {
+      width: 80%;
+    }
+  }
+  @media only screen and (max-width: 550px) {
+    /* For mobile phones: */
+    #calculator {
+      width:100%;
+    }
+  }
