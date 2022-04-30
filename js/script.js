@@ -79,7 +79,7 @@ function number (a){
 function operation(o){
     console.log(o);
     calculator.setOperation(o);
-    calculator.update();
+    // calculator.update();
 }
 function clearScreen(){
     calculator.clear();
