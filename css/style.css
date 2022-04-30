@@ -12,7 +12,7 @@
     display: inline-flex;
     background-color: black;
     color:burlywood;
-    width: 100%;
+    width: 70%;
     height:auto;
     justify-content: space-between;
 }
@@ -53,7 +53,7 @@ span.eval{
 span#clear{
     background-color: rgb(202, 202, 202);
     color:rgb(2, 0, 0);
-    width: 13%;
+    width: 20%;
     padding: 3px; 
     display: flex;
     justify-content: center;
